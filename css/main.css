@@ -1,3 +1,70 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	padding: 0px;
+	margin: 0px; 
+	font-family: "Montserrat",sans-serif;
+}
+
+
+.encabezado1{
+	background-image: url(../assets/images/hero.gif);
+	height:70vh;
+	background-size: cover;
+	width: 100%;
+}
+nav li:first-child img{
+	height: 45px;
+	width: 45px;
+	margin-top:20px;
+	margin-right: 593px
+}
+nav li{
+	color:white;
+	margin-left: 50px;
+	list-style:none;
+	display: inline-block;
+}
+
+.imgwhite{
+	background:white;
+	height: 350px;
+	width: 500px;
+	margin-left: 700px;
+	margin-top: 60px;
+}
+
+.parrafo1{
+	color:#2B1E66;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-left: 90px;
+	padding-right: 100px;
+	font-weight: bolder;
+}
+.parrafo2{
+	color:#2B1E66;
+	font-size: 15px;
+	text-align: justify;
+	text-transform: uppercase;
+	padding-left: 90px;
+	padding-right: 100px;
+}
+.parrafo3{
+	color: #D3D3D3;
+	font-size:15px;
+	padding-top: 15px;
+	text-align: normal;
+}
+.parrafo4::before{
+	color:#2B1E66;
+	content:" ";
+	width:75px;
+	border:2px solid ;
+	display: inline-block;
+	margin-bottom: 14px;
+}
+.gradiante{
+	background:linear-gradient(#76278F, #2B1E66);
+	height:700px; /*altura provisorio, sacar al meter elementos en esta seccion*/
+}
+
