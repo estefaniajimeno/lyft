@@ -179,6 +179,7 @@ nav ul{
 	position: relative;
 	margin-left: 100px;
 	width: 390px;
+	margin-bottom: 4em;
 }
 .parrafo1 {
 	font-size:18px;
@@ -208,14 +209,13 @@ footer{
 h5{
 	text-transform: uppercase;
 	color: white;
-	margin-left: 2em;
+	margin-left: 1.7em;
+	margin-top: 1em;
 }
 .listLink li {
-	margin-top: 2em;
 	margin-left: 2em;
+	margin-bottom: 2em;
 	list-style: none;
-	
-
 }
 a{
 	color: white;
@@ -224,9 +224,7 @@ a{
 	width: 10em;
 	height:3em;
 	margin-bottom: 1em;
-	margin-top: 4em;
-
-	
+	margin-top: 3em;
 }
 .google {
 	width: 10em;
@@ -239,9 +237,9 @@ a{
 	height:3em;
 	margin-bottom: 1em;
 }
-.line{
+.fa{
 	color: white;
-	width: 20em;
+	margin-left: 1em;
 }
 .copyright{
 
