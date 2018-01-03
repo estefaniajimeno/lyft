@@ -1,105 +1,128 @@
 *{
-	padding: 0px;
-	margin: 0px; 
+	padding: 0;
+	margin: 0; 
 	font-family: "Montserrat",sans-serif;
 }
 
 
-.encabezado1{
+.header{
 	background-image: url(../assets/images/hero.gif);
 	height:100vh;
 	background-size: cover;
 	width: 100%;
+	
 }
-nav li:first-child img{
-	height: 45px;
-	width: 45px;
-	margin-top:20px;
-	margin-right: 593px
+.logoWhite{
+	width: 3em;
+	height: 4em;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 1em;
+	display: inline-block;
 }
+.drive{
+	color:white;
+	display: inline-block;
+	margin-top:5em;
+}
+
 nav li{
 	color:white;
-	margin-left: 50px;
+	margin-left:1em; 
 	list-style:none;
 	display: inline-block;
-	margin-top: 100px;
+	margin-top: 1em;
+}
+nav ul{
+	float: right;
+	clear: both;
+	overflow: hidden;
+	margin-right: 2em;
+}
+ nav li:last-child{
+	border:0.1em solid white;
+	padding: 0.5em;
+	border-radius: 0.4em;
 }
 
 .imgwhite{
 	background:white;
-	height: 325px;
-	width: 472px;
-	margin-left: 950px;
-	margin-top: 60px;
+	height: 23em;
+	width: 35em;
+	margin-left: 13em;
+	margin-top: 5em;
 }
 
-.parrafo1{
+.turn{
 	color:#2B1E66;
-	font-size: 35px;
+	font-size: 30px;
 	text-transform: uppercase;
-	padding-top: 40px;
-	padding-left: 90px;
-	padding-right: 100px;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 8em;
 	font-weight: bolder;
 }
-.parrafo2{
+.signUp{
 	color:#2B1E66;
 	font-size: 15px;
 	text-align: justify;
 	text-transform: uppercase;
-	padding-left: 90px;
-	padding-right: 100px;
+	padding-left: 4em;
+	padding-right: 1em;
 }
-.parrafo3{
+.phoneNumber{
 	color: #D3D3D3;
 	font-size:15px;
-	padding-top: 15px;
+	padding-top: 1em;
 	text-align: normal;
-	padding-left: 90px;
+	padding-left: 4em;
 }
-hr{
+.line1{
 	width: 310px;
-	margin-left: 90px;
+	margin-left: 4em;
 }
-.boton1{
-	border:2px solid white;
+.btn1{
+	
 	background-color:#FF00BF;
 	color:white; 
 	font-size: 12px;
-	border-radius: 5px; 
-	width: 100px;
-	margin-top: 10px;
-	height: 25px;
-	padding-top:10px; 
-	margin-left: 90px; 
+	border-radius: 0.5em; 
+	width: 9em;
+	height: 3.7em;
+	margin-left: 4em; 
 	position: absolute;
+	text-align: center;
+	padding: 0.1em;
 }
-.parrafo5{
-	margin-left: 205px;
-	display: inline-block;
+.toRide{
+	margin-left: 12em;
 	position: absolute;
-	padding-top: 20px;
+	padding-top: 1em;
+	color: #D3D3D3;
 	text-decoration: underline;
 }
-.parrafo6{
-	margin-left: 90px;
-	width: 318px;
-	padding-top: 80px;
+.already{
+	margin-left: 4em;
+	padding-top: 1em;
 	font-size: 11px;
+	margin-top: 5em;
+	margin-right: 17em;
+	padding-top: 1em;
+	color:#C0C0C0;
 }
-.gradiante{
+#gradiante{
 	background:linear-gradient(#76278F, #2B1E66);
 	 /*altura provisorio, sacar al meter elementos en esta seccion*/
-	 height: 120vh;
-	 width:100%; 
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
 }
-.phone img{
+#phone {
 	position: absolute;
-	left: 800px;
-	width:600px; 
-	height:600px;
-	margin-top: 20px;
-	outline: 1px solid red;
+	margin-left: 9em;
+	margin-top: 2em;
+	height: 29em;
+	width:25em;
 }
 .ride1{
 	text-transform: uppercase;
@@ -108,7 +131,7 @@ hr{
 	position: relative;
 	left: 20px;
 	margin-left: 80px;
-	margin-top: 100px;
+	margin-top: 5em;
 	display: inline-block;
 	padding-right: 30px;
 }
@@ -157,170 +180,70 @@ hr{
 	margin-left: 100px;
 	width: 390px;
 }
-.contenedor3{
-	display: inline-block;
-	width: 100%;
-	height: 700px;
-}
-.contenedor3 p{
-	margin-left: 55px;
-	margin-top: 20px;
-	display: inline-block;
-}
-.titulo1{
-	margin-left: 55px;
-	margin-top: 20px;
-	display: inline-block;
-}
-.parrafo1 p{
+.parrafo1 {
 	font-size:18px;
 	margin-left: 55px;
 	margin-top: 20px;
 	display: inline-block;
+
 }
-.contenedor3 p{
-	margin-left: 55px;
-	margin-top: 20px;
-	display: inline-block;
-}
-.titulo2{
-	margin-left: 55px;
-	margin-top: 20px;
-	display: inline-block;
-}
-.parrafo2 p{
+.parrafo2 {
 	font-size:18px;
 	margin-left: 55px;
 	margin-top: 20px;
 	display: inline-block;
 }
 
+.parrafo3 {
+	font-size:18px;
+	margin-left: 55px;
+	margin-top: 20px;
+	display: inline-block;
 
-
-.vd1{
-	float: right;
 }
-.vd2{
-	float:left;
-}
-
-.vd3{
-	float: right;
-}*/
 footer{
 	background-color: #333447;
-	background-size: cover;
-	width: 100%;
-	color: white;
-	clear: both;
-	overflow: hidden;
+	
 }
-footer h3{
-	float: left;
-	margin-top: 70px;
-	margin-left: 130px;
+h5{
 	text-transform: uppercase;
+	color: white;
+	margin-left: 2em;
 }
-.lista1 {
-	float: left;
-}
-.lista1 ul li a:hover{
-	color: #FF00BF;
-}
-.lista1 ul{
+.listLink li {
+	margin-top: 2em;
+	margin-left: 2em;
 	list-style: none;
-}
-.lista1 h3{
-	margin-top: 50px;
-}
-ul li{
-	margin-top: 30px;
-	margin-left: 125px;
-}
-ul li:first-child{
-	margin-top: 100px;
-}
-ul a {
-	color: white;
-	text-decoration: none;
-}
-.lista2 {
-	float: left;
-}
-.lista2 ul li a:hover{
-	color: #FF00BF;
-}
-.lista2 ul{
-	list-style: none;
-}
-.lista2 h3{
-	margin-top: 50px;
-	color: white;
-}
+	
 
-ul li{
-	margin-top: 30px;
-	margin-left: 125px;
 }
-ul li:first-child{
-	margin-top: 100px;
-}
-ul a {
-	color: white;
-	text-decoration: none;
-}
-.lista3 {
-	float: left;
-}
-.lista3 ul li a:hover{
-	color: #FF00BF;
-}
-.lista3 ul{
-	list-style: none;
-}
-.lista3 h3{
-	margin-top: 50px;
+a{
 	color: white;
 }
-ul li{
-	margin-top: 30px;
-	margin-left: 125px;
-}
-ul li:first-child{
-	margin-top: 100px;
-}
-ul a {
-	color: white;
-	text-decoration: none;
-}
+.apple {
+	width: 10em;
+	height:3em;
+	margin-bottom: 1em;
+	margin-top: 4em;
 
-/*footer img{
-	width:200px 
-	height:20px;
-	margin-left:100px;
-	display: inherit;
-	padding top:20px;*/
+	
 }
- footer .apple img{
-	width:100px 
-	height:100px;
-	margin-left:100px;
-	display: inherit;
-	padding top:20px;
+.google {
+	width: 10em;
+	height:3em;
+	display: block;
+	margin-bottom: 1em;
 }
-footer .google img{
-	width:100px 
-	height:100px;
-	margin-left:100px;
-	display: inherit;
-	padding top:20px;
+.microsoft {
+	width: 10em;
+	height:3em;
+	margin-bottom: 1em;
 }
-footer .microsoft img{
-	width:200px 
-	height:20px;
-	margin-left:100px;
-	display: inherit;
-	padding top:20px;
-	outline
+.line{
+	color: white;
+	width: 20em;
+}
+.copyright{
 
+	color: white;
 }
